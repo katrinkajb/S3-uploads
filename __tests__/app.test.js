@@ -22,7 +22,7 @@ describe('CRUD routes for managing files in S3', () => {
     upload = await Upload.insert({ 
       fileName: "testFile",
       fileBody: fileContent 
-    })
+    }) 
   });
 
   it('Post creates a new file in the db and uploads to S3', async () => { 
