@@ -25,7 +25,7 @@ describe('CRUD routes for managing files in S3', () => {
     })
   });
 
-  it('Post creates a new file in the db and uploads to S3', async () => {
+  it('Post creates a new file in the db and uploads to S3', async () => { 
     const res = await request(app)
       .post('/api/v1/uploads')
       .send({ 
