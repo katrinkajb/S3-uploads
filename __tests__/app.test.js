@@ -37,4 +37,4 @@ describe('CRUD routes for managing files in S3', () => {
         id: '2',
         filePath: 'https://lab-4-s3-bucket.s3-us-west-2.amazonaws.com/toroto.jpg',
       });
-  }); 
+  });
